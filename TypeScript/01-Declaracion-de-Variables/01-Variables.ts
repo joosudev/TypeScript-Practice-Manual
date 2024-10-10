@@ -1,15 +1,12 @@
-// Declaración de Variables
-
-// let se utiliza para declarar variables que pueden cambiar su valor.
-let edad: number = 25;
-console.log(edad);
+let users: string = "admin"
+console.log(users);
 
 // const se utiliza para declarar constantes cuyo valor no puede cambiar una vez inicializado.
 const nombre: string = "Eren Jeager"
 console.log(nombre);
 
 // Inferir tipos: TypeScript puede inferir el tipo de una variable según el valor asignado si no se especifica explícitamente
-let mensaje = "Hola, mundo!"; 
+let mensaje: string = "Hola, mundo!"; 
 console.log(mensaje);
 
 
@@ -43,7 +40,7 @@ let punto: Coordenadas ={
 }
 console.log(`Coordenadas x:${punto.x}, y:${punto.y}`);
 
-
+// Clases
 interface Producto {
     id: number;
     nombre: string;
